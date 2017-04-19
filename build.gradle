@@ -1,6 +1,6 @@
 apply plugin: 'java'
 
-build.doFirst {
+check.doFirst {
 	println "Running gradle v${project.gradle.gradleVersion}"
 }
 
