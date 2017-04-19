@@ -3,7 +3,3 @@ apply plugin: 'java'
 check.doFirst {
 	println "Running gradle v${project.gradle.gradleVersion}"
 }
-
-task wrapper(type: Wrapper) {
-    gradleVersion = '3.4.1'
-}
